@@ -14,9 +14,15 @@
     description: A Helm chart for the resources for JX Boot
     home: https://github.com/jenkins-x-charts/jxboot-helmfile-resources
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
+    ingresses:
+    - name: bucketrepo
+      url: http://bucketrepo-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud/
+    - name: hook
+      url: http://hook-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
     name: jxboot-helmfile-resources
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+    resourcePath: config-root/namespaces/jx/jxboot-helmfile-resources
     version: 1.0.27
   - apiVersion: v2
     appVersion: 3.0.5
@@ -25,14 +31,20 @@
     name: jenkins-x-crds
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/jenkins-x-crds
     version: 3.0.5
   - apiVersion: v1
     appVersion: latest
+    applicationUrl: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
     description: Web UI for Jenkins X, with a clear goal - visualize the pipelines - and their logs.
     home: https://github.com/jenkins-x/jx-pipelines-visualizer
+    ingresses:
+    - name: jx-pipelines-visualizer
+      url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
     name: jx-pipelines-visualizer
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/jx-pipelines-visualizer
     sources:
     - https://github.com/jenkins-x/jx-pipelines-visualizer
     version: 0.0.77
@@ -44,6 +56,7 @@
     name: jx-preview
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/jx-preview
     version: 0.0.139
   - apiVersion: v1
     appVersion: 0.0.907
@@ -54,6 +67,7 @@
     name: lighthouse
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+    resourcePath: config-root/namespaces/jx/lighthouse
     version: 0.0.907
   - apiVersion: v1
     appVersion: 0.1.53
@@ -62,6 +76,7 @@
     name: bucketrepo
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+    resourcePath: config-root/namespaces/jx/bucketrepo
     version: 0.1.53
   - apiVersion: v2
     appVersion: 3.0.0
@@ -74,6 +89,7 @@
     name: jx-build-controller
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/jx-build-controller
     sources:
     - https://github.com/jenkins-x-plugins/jx-build-controller
     version: 0.0.22
@@ -84,6 +100,7 @@
     name: local-external-secrets
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jx/local-external-secrets
     version: 0.0.6
 - namespace: tekton-pipelines
   path: helmfiles/tekton-pipelines/helmfile.yaml
@@ -96,4 +113,5 @@
     name: tekton-pipeline
     repositoryName: cdf
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
+    resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.19.1
