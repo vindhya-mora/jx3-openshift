@@ -6,6 +6,10 @@ data:
       repos:
       - vindhya-mora/jx3-openshift
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/angular-jx
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -20,6 +24,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      vindhya-mora/angular-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/jx3-openshift:
       - config-updater
       - approve
@@ -49,6 +69,11 @@ data:
     - repos:
       - vindhya-mora/jx3-openshift
       trusted_org: todo
+    - repos:
+      - vindhya-mora/angular-jx
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
