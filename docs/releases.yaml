@@ -47,7 +47,7 @@
     resourcePath: config-root/namespaces/jx/jx-pipelines-visualizer
     sources:
     - https://github.com/jenkins-x/jx-pipelines-visualizer
-    version: 0.0.77
+    version: 1.1.1
   - apiVersion: v1
     description: |
       This chart installs the jx-preview CRD and garbagecollection job
@@ -57,9 +57,9 @@
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
     resourcePath: config-root/namespaces/jx/jx-preview
-    version: 0.0.139
+    version: 0.0.144
   - apiVersion: v1
-    appVersion: 0.0.907
+    appVersion: 0.0.917
     description: |
       This chart bootstraps installation of [Lighthouse](https://github.com/jenkins-x/lighthouse).
     home: https://github.com/jenkins-x/lighthouse
@@ -68,7 +68,7 @@
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
     resourcePath: config-root/namespaces/jx/lighthouse
-    version: 0.0.907
+    version: 0.0.917
   - apiVersion: v1
     appVersion: 0.1.53
     description: A Helm chart for bucketrepo service
@@ -92,7 +92,7 @@
     resourcePath: config-root/namespaces/jx/jx-build-controller
     sources:
     - https://github.com/jenkins-x-plugins/jx-build-controller
-    version: 0.0.22
+    version: 0.0.26
   - apiVersion: v2
     appVersion: 0.0.6
     description: Local External Secrets
