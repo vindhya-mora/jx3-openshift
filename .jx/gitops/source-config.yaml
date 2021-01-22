@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: angular-jx
+    - name: jx-angular
     scheduler: in-repo
