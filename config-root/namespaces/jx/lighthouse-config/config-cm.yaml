@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         vindhya-mora/angular-jx: true
+        vindhya-mora/jx-angular: true
         vindhya-mora/jx3-openshift: true
     plank: {}
     pod_namespace: jx
@@ -21,6 +22,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         vindhya-mora/angular-jx: merge
+        vindhya-mora/jx-angular: merge
         vindhya-mora/jx3-openshift: merge
       queries:
       - labels:
@@ -34,6 +36,7 @@ data:
         repos:
         - vindhya-mora/jx3-openshift
         - vindhya-mora/angular-jx
+        - vindhya-mora/jx-angular
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - vindhya-mora/jx3-openshift
         - vindhya-mora/angular-jx
+        - vindhya-mora/jx-angular
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
 kind: ConfigMap
 metadata:

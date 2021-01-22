@@ -10,6 +10,10 @@ data:
       repos:
       - vindhya-mora/angular-jx
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/jx-angular
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -25,6 +29,22 @@ data:
     owners: {}
     plugins:
       vindhya-mora/angular-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/jx-angular:
       - approve
       - assign
       - blunderbuss
@@ -71,6 +91,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/angular-jx
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/jx-angular
       trusted_org: todo
     welcome:
     - message_template: Welcome
