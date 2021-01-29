@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/ang-jx
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/angular-jx-jan28
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -32,6 +36,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      vindhya-mora/ang-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/angular-jx:
       - approve
       - assign
@@ -108,6 +128,9 @@ data:
     triggers:
     - repos:
       - vindhya-mora/jx3-openshift
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/ang-jx
       trusted_org: todo
     - repos:
       - vindhya-mora/angular-jx-jan28
