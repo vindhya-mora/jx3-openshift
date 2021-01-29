@@ -10,6 +10,7 @@ data:
         vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
         vindhya-mora/angular-jx-jan28: true
+        vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
         vindhya-mora/jx3-openshift: true
     plank: {}
@@ -26,6 +27,7 @@ data:
         vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
         vindhya-mora/angular-jx-jan28: merge
+        vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
         vindhya-mora/jx3-openshift: merge
       queries:
@@ -42,6 +44,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
       - labels:
         - updatebot
@@ -56,6 +59,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
 kind: ConfigMap

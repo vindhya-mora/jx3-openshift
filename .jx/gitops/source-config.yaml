@@ -11,5 +11,6 @@ spec:
     - name: ang-jx
     - name: angular-jx
     - name: angular-jx-jan28
+    - name: jenkins-jx
     - name: jx-angular
     scheduler: in-repo
