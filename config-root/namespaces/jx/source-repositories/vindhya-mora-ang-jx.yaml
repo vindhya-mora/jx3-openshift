@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: ang-jx
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-ang-jx
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/ang-jx.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ang-jx
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/ang-jx
