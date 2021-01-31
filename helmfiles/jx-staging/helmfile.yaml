@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+releases:
+- chart: dev/python-31stjan
+  version: 0.0.1
+  name: python-31stjan
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}

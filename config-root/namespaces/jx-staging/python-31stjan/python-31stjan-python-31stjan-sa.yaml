@@ -1,0 +1,8 @@
+# Source: python-31stjan/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: python-31stjan-python-31stjan
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
