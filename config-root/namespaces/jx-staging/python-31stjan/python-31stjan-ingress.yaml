@@ -1,0 +1,18 @@
+# Source: python-31stjan/templates/ingress.yaml
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: python-31stjan
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+    - http:
+        paths:
+          - backend:
+              serviceName: python-31stjan
+              servicePort: 80
+      host: python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
