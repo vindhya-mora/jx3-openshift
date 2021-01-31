@@ -13,6 +13,7 @@ data:
         vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
         vindhya-mora/jx3-openshift: true
+        vindhya-mora/python-31stjan: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -30,6 +31,7 @@ data:
         vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
         vindhya-mora/jx3-openshift: merge
+        vindhya-mora/python-31stjan: merge
       queries:
       - labels:
         - approved
@@ -46,6 +48,7 @@ data:
         - vindhya-mora/angular-jx
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
+        - vindhya-mora/python-31stjan
       - labels:
         - updatebot
         missingLabels:
@@ -61,6 +64,7 @@ data:
         - vindhya-mora/angular-jx
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
+        - vindhya-mora/python-31stjan
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
 kind: ConfigMap
 metadata:

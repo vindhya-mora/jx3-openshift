@@ -13,4 +13,5 @@ spec:
     - name: angular-jx-jan28
     - name: jenkins-jx
     - name: jx-angular
+    - name: python-31stjan
     scheduler: in-repo
