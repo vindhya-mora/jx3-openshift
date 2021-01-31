@@ -14,3 +14,11 @@ spec:
     - name: jenkins-jx
     - name: jx-angular
     scheduler: in-repo
+  jenkinsServers:
+  - groups:
+    - owner: vindhya-mora
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: springboot-31stjan
+    server: devops
