@@ -1,0 +1,58 @@
+# Source: python-31stjan/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-31stjan-python-31stjan
+  labels:
+    draft: draft-app
+    chart: "python-31stjan-0.0.1"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  namespace: jx-production
+  annotations:
+    wave.pusher.com/update-on-config-change: 'true'
+spec:
+  selector:
+    matchLabels:
+      app: python-31stjan-python-31stjan
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        draft: draft-app
+        app: python-31stjan-python-31stjan
+    spec:
+      serviceAccountName: python-31stjan-python-31stjan
+      containers:
+        - name: python-31stjan
+          image: "ghcr.io/vindhya-mora/python-31stjan:0.0.1"
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: VERSION
+              value: 0.0.1
+          envFrom: null
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 400m
+              memory: 256Mi
+            requests:
+              cpu: 200m
+              memory: 128Mi
+      terminationGracePeriodSeconds:
+      imagePullSecrets:
