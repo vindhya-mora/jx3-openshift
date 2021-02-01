@@ -56,3 +56,4 @@ spec:
               memory: 128Mi
       terminationGracePeriodSeconds:
       imagePullSecrets:
+        - name: "tekton-container-registry-auth"
