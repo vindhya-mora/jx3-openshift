@@ -73,6 +73,15 @@
 	      <td></td>
 	      <td><a href='https://github.com/cdfoundation/tekton-helm-chart'>source</a></td>
 	    </tr>
+    <tr>
+		      <td colspan='4'><h3>jx-staging</h3></td>
+		    </tr>
+	    <tr>
+	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> python-31stjan </a></td>
+	      <td>0.0.1</td>
+	      <td><a href='http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud'>view</a></td>
+	      <td></td>
+	    </tr>
 
   </tbody>
 </table>
