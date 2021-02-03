@@ -30,6 +30,10 @@ data:
       repos:
       - vindhya-mora/python-31stjan
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/yes
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -157,6 +161,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/yes:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -186,6 +206,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/python-31stjan
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/yes
       trusted_org: todo
     welcome:
     - message_template: Welcome

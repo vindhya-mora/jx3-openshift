@@ -14,4 +14,5 @@ spec:
     - name: jenkins-jx
     - name: jx-angular
     - name: python-31stjan
+    - name: "yes"
     scheduler: in-repo
