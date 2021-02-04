@@ -10,6 +10,7 @@ data:
         vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
         vindhya-mora/angular-jx-jan28: true
+        vindhya-mora/fundtransfer-jx-4thfeb: true
         vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
         vindhya-mora/jx3-openshift: true
@@ -29,6 +30,7 @@ data:
         vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
         vindhya-mora/angular-jx-jan28: merge
+        vindhya-mora/fundtransfer-jx-4thfeb: merge
         vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
         vindhya-mora/jx3-openshift: merge
@@ -48,6 +50,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/python-31stjan
@@ -65,6 +68,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/python-31stjan
