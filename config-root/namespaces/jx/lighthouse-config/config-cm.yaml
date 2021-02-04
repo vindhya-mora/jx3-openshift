@@ -12,6 +12,7 @@ data:
         vindhya-mora/angular-jx-jan28: true
         vindhya-mora/fundtransfer-4thfeb: true
         vindhya-mora/fundtransfer-jx-4thfeb: true
+        vindhya-mora/fundtransfer-jxpipeline: true
         vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
         vindhya-mora/jx-fundtransfer-4thfeb: true
@@ -34,6 +35,7 @@ data:
         vindhya-mora/angular-jx-jan28: merge
         vindhya-mora/fundtransfer-4thfeb: merge
         vindhya-mora/fundtransfer-jx-4thfeb: merge
+        vindhya-mora/fundtransfer-jxpipeline: merge
         vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
         vindhya-mora/jx-fundtransfer-4thfeb: merge
@@ -56,6 +58,7 @@ data:
         - vindhya-mora/angular-jx
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-jx-4thfeb
+        - vindhya-mora/fundtransfer-jxpipeline
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
@@ -76,6 +79,7 @@ data:
         - vindhya-mora/angular-jx
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-jx-4thfeb
+        - vindhya-mora/fundtransfer-jxpipeline
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb

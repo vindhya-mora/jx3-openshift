@@ -28,6 +28,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/fundtransfer-jxpipeline
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/jenkins-jx
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -125,6 +129,22 @@ data:
       - dog
       - pony
       vindhya-mora/fundtransfer-jx-4thfeb:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/fundtransfer-jxpipeline:
       - approve
       - assign
       - blunderbuss
@@ -263,6 +283,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/fundtransfer-jx-4thfeb
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/fundtransfer-jxpipeline
       trusted_org: todo
     - repos:
       - vindhya-mora/jenkins-jx
