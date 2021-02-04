@@ -36,6 +36,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/jx-fundtransfer-4thfeb
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/python-31stjan
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -168,6 +172,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/jx-fundtransfer-4thfeb:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/jx3-openshift:
       - config-updater
       - approve
@@ -249,6 +269,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/jx-angular
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/jx-fundtransfer-4thfeb
       trusted_org: todo
     - repos:
       - vindhya-mora/python-31stjan

@@ -14,6 +14,7 @@ data:
         vindhya-mora/fundtransfer-jx-4thfeb: true
         vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
+        vindhya-mora/jx-fundtransfer-4thfeb: true
         vindhya-mora/jx3-openshift: true
         vindhya-mora/python-31stjan: true
         vindhya-mora/yes: true
@@ -35,6 +36,7 @@ data:
         vindhya-mora/fundtransfer-jx-4thfeb: merge
         vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
+        vindhya-mora/jx-fundtransfer-4thfeb: merge
         vindhya-mora/jx3-openshift: merge
         vindhya-mora/python-31stjan: merge
         vindhya-mora/yes: merge
@@ -56,6 +58,7 @@ data:
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
+        - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
         - vindhya-mora/yes
       - labels:
@@ -75,6 +78,7 @@ data:
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
+        - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
         - vindhya-mora/yes
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
