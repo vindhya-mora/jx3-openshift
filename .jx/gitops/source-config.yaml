@@ -15,6 +15,7 @@ spec:
     - name: fundtransfer-jx-4thfeb
     - name: jenkins-jx
     - name: jx-angular
+    - name: jx-fundtransfer-4thfeb
     - name: python-31stjan
     - name: "yes"
     scheduler: in-repo
