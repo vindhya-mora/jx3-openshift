@@ -8,7 +8,51 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/ang-jx
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/angular-jx-jan28
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/angular-jx
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/fundtransfer-4thfeb
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/fundtransfer-5thfeb
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/fundtransfer-jx-4thfeb
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/fundtransfer-jxpipeline
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/jenkins-jx
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/jx-angular
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/jx-fundtransfer-4thfeb
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/python-31stjan
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/yes
       require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
@@ -24,7 +68,151 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      vindhya-mora/ang-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/angular-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/angular-jx-jan28:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/fundtransfer-4thfeb:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/fundtransfer-5thfeb:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/fundtransfer-jx-4thfeb:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/fundtransfer-jxpipeline:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/jenkins-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/jx-angular:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/jx-fundtransfer-4thfeb:
       - approve
       - assign
       - blunderbuss
@@ -57,6 +245,38 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/python-31stjan:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/yes:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -70,7 +290,40 @@ data:
       - vindhya-mora/jx3-openshift
       trusted_org: todo
     - repos:
+      - vindhya-mora/ang-jx
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/angular-jx-jan28
+      trusted_org: todo
+    - repos:
       - vindhya-mora/angular-jx
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/fundtransfer-4thfeb
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/fundtransfer-5thfeb
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/fundtransfer-jx-4thfeb
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/fundtransfer-jxpipeline
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/jenkins-jx
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/jx-angular
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/jx-fundtransfer-4thfeb
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/python-31stjan
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/yes
       trusted_org: todo
     welcome:
     - message_template: Welcome

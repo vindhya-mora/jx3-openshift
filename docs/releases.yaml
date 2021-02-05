@@ -47,7 +47,7 @@
     resourcePath: config-root/namespaces/jx/jx-pipelines-visualizer
     sources:
     - https://github.com/jenkins-x/jx-pipelines-visualizer
-    version: 0.0.77
+    version: 1.1.1
   - apiVersion: v1
     description: |
       This chart installs the jx-preview CRD and garbagecollection job
@@ -57,9 +57,9 @@
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
     resourcePath: config-root/namespaces/jx/jx-preview
-    version: 0.0.139
+    version: 0.0.144
   - apiVersion: v1
-    appVersion: 0.0.907
+    appVersion: 0.0.917
     description: |
       This chart bootstraps installation of [Lighthouse](https://github.com/jenkins-x/lighthouse).
     home: https://github.com/jenkins-x/lighthouse
@@ -68,7 +68,7 @@
     repositoryName: jenkins-x
     repositoryUrl: https://storage.googleapis.com/chartmuseum.jenkins-x.io
     resourcePath: config-root/namespaces/jx/lighthouse
-    version: 0.0.907
+    version: 0.0.917
   - apiVersion: v1
     appVersion: 0.1.53
     description: A Helm chart for bucketrepo service
@@ -92,7 +92,7 @@
     resourcePath: config-root/namespaces/jx/jx-build-controller
     sources:
     - https://github.com/jenkins-x-plugins/jx-build-controller
-    version: 0.0.22
+    version: 0.0.26
   - apiVersion: v2
     appVersion: 0.0.6
     description: Local External Secrets
@@ -115,3 +115,18 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.19.1
+- namespace: jx-staging
+  path: helmfiles/jx-staging/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    applicationUrl: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    description: A Helm chart for Kubernetes
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    ingresses:
+    - name: python-31stjan
+      url: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    name: python-31stjan
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/python-31stjan
+    version: 0.0.1

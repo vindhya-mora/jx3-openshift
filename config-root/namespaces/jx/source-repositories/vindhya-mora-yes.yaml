@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: "yes"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-yes
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/yes.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: "yes"
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/yes

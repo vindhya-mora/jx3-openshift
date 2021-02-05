@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: jx-fundtransfer-4thfeb
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-jx-fundtransfer-4thfeb
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/jx-fundtransfer-4thfeb.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-fundtransfer-4thfeb
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/jx-fundtransfer-4thfeb

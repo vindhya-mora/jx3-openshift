@@ -7,8 +7,19 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
+        vindhya-mora/angular-jx-jan28: true
+        vindhya-mora/fundtransfer-4thfeb: true
+        vindhya-mora/fundtransfer-5thfeb: true
+        vindhya-mora/fundtransfer-jx-4thfeb: true
+        vindhya-mora/fundtransfer-jxpipeline: true
+        vindhya-mora/jenkins-jx: true
+        vindhya-mora/jx-angular: true
+        vindhya-mora/jx-fundtransfer-4thfeb: true
         vindhya-mora/jx3-openshift: true
+        vindhya-mora/python-31stjan: true
+        vindhya-mora/yes: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,8 +31,19 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
+        vindhya-mora/angular-jx-jan28: merge
+        vindhya-mora/fundtransfer-4thfeb: merge
+        vindhya-mora/fundtransfer-5thfeb: merge
+        vindhya-mora/fundtransfer-jx-4thfeb: merge
+        vindhya-mora/fundtransfer-jxpipeline: merge
+        vindhya-mora/jenkins-jx: merge
+        vindhya-mora/jx-angular: merge
+        vindhya-mora/jx-fundtransfer-4thfeb: merge
         vindhya-mora/jx3-openshift: merge
+        vindhya-mora/python-31stjan: merge
+        vindhya-mora/yes: merge
       queries:
       - labels:
         - approved
@@ -33,7 +55,18 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - vindhya-mora/ang-jx
+        - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/fundtransfer-4thfeb
+        - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-jx-4thfeb
+        - vindhya-mora/fundtransfer-jxpipeline
+        - vindhya-mora/jenkins-jx
+        - vindhya-mora/jx-angular
+        - vindhya-mora/jx-fundtransfer-4thfeb
+        - vindhya-mora/python-31stjan
+        - vindhya-mora/yes
       - labels:
         - updatebot
         missingLabels:
@@ -44,7 +77,18 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - vindhya-mora/ang-jx
+        - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/fundtransfer-4thfeb
+        - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-jx-4thfeb
+        - vindhya-mora/fundtransfer-jxpipeline
+        - vindhya-mora/jenkins-jx
+        - vindhya-mora/jx-angular
+        - vindhya-mora/jx-fundtransfer-4thfeb
+        - vindhya-mora/python-31stjan
+        - vindhya-mora/yes
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
 kind: ConfigMap
 metadata:
