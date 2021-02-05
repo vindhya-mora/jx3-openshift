@@ -2,7 +2,7 @@
 jx:
   imagePullSecrets: []
   # if using a non-openshift registry you can use:
-  # - tekton-container-registry-auth
+   - tekton-container-registry-auth
 
   # these variables are used by 'jx gitops variables' to default environment variables
   # into the .jx/variables.sh file which can be overriden on a pre repository basis
