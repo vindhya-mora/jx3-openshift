@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms: true
         vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
         vindhya-mora/angular-jx-jan28: true
@@ -33,6 +34,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms: merge
         vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
         vindhya-mora/angular-jx-jan28: merge
@@ -59,6 +61,7 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
@@ -83,6 +86,7 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
