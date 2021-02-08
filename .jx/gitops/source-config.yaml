@@ -23,3 +23,9 @@ spec:
     - name: python-31stjan
     - name: "yes"
     scheduler: in-repo
+  - owner: experiential-squads
+    provider: https://github.ibm.com
+    providerKind: github
+    repositories:
+    - name: ref-impl-6-1-mfp-fundtransfer-ms
+    scheduler: in-repo
