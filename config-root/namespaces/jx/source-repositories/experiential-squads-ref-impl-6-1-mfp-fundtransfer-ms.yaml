@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: experiential-squads
+    provider: github
+    repository: ref-impl-6-1-mfp-fundtransfer-ms
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: experiential-squads-ref-impl-6-1-mfp-fundtransfer-ms
+  namespace: jx
+spec:
+  httpCloneURL: https://github.ibm.com/experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms.git
+  org: experiential-squads
+  provider: https://github.ibm.com
+  providerKind: github
+  providerName: github
+  repo: ref-impl-6-1-mfp-fundtransfer-ms
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.ibm.com/experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
