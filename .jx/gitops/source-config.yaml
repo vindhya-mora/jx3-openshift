@@ -13,6 +13,7 @@ spec:
     - name: angular-jx-jan28
     - name: fundtransfer-4thfeb
     - name: fundtransfer-5thfeb
+    - name: fundtransfer-feb8th
     - name: fundtransfer-jx-4thfeb
     - name: fundtransfer-jxpipeline
     - name: jenkins-jx
