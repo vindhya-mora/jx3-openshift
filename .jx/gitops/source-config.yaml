@@ -11,6 +11,7 @@ spec:
     - name: ang-jx
     - name: angular-jx
     - name: angular-jx-jan28
+    - name: bank-demo-feb8th
     - name: fundtransfer-4thfeb
     - name: fundtransfer-5thfeb
     - name: fundtransfer-feb8th

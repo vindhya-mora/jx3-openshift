@@ -10,6 +10,7 @@ data:
         vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
         vindhya-mora/angular-jx-jan28: true
+        vindhya-mora/bank-demo-feb8th: true
         vindhya-mora/fundtransfer-4thfeb: true
         vindhya-mora/fundtransfer-5thfeb: true
         vindhya-mora/fundtransfer-feb8th: true
@@ -35,6 +36,7 @@ data:
         vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
         vindhya-mora/angular-jx-jan28: merge
+        vindhya-mora/bank-demo-feb8th: merge
         vindhya-mora/fundtransfer-4thfeb: merge
         vindhya-mora/fundtransfer-5thfeb: merge
         vindhya-mora/fundtransfer-feb8th: merge
@@ -60,6 +62,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
         - vindhya-mora/fundtransfer-feb8th
@@ -83,6 +86,7 @@ data:
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
         - vindhya-mora/fundtransfer-feb8th
