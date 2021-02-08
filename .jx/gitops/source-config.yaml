@@ -29,3 +29,11 @@ spec:
     repositories:
     - name: ref-impl-6-1-mfp-fundtransfer-ms
     scheduler: in-repo
+  jenkinsServers:
+  - groups:
+    - owner: vindhya-mora
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: spring-boot-maven-jenkinsfile
+    server: jenkins-for-jx
