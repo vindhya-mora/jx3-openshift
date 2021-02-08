@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: spring-boot-rest-prometheus-java11
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-spring-boot-rest-prometheus-java11
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/spring-boot-rest-prometheus-java11.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-boot-rest-prometheus-java11
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/spring-boot-rest-prometheus-java11
