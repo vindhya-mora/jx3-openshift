@@ -13,5 +13,8 @@ releases:
   name: python-31stjan
   values:
   - jx-values.yaml
+- chart: dev/spring-boot-rest-prometheus-java11
+  version: 0.0.1
+  name: spring-boot-rest-prometheus-java11
 templates: {}
 renderedvalues: {}
