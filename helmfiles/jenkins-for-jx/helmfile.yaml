@@ -1,0 +1,26 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+repositories:
+- name: jenkinsci
+  url: https://charts.jenkins.io
+- name: jx3
+  url: https://storage.googleapis.com/jenkinsxio/charts
+releases:
+- chart: jenkinsci/jenkins
+  name: jenkins
+  namespace: jenkins-for-jx
+  values:
+  - job-values.yaml
+  - values.yaml
+  - ../../versionStream/charts/jenkinsci/jenkins/values.yaml.gotmpl
+  - jx-values.yaml
+- chart: jx3/jenkins-resources
+  name: jenkins-resources
+  namespace: jenkins-for-jx
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}
