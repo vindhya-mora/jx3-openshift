@@ -21,6 +21,7 @@ spec:
     - name: jx-angular
     - name: jx-fundtransfer-4thfeb
     - name: python-31stjan
+    - name: spring-boot-rest-prometheus-java11
     - name: "yes"
     scheduler: in-repo
   - owner: experiential-squads
