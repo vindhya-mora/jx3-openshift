@@ -16,5 +16,7 @@ releases:
 - chart: dev/spring-boot-app-feb9th
   version: 0.0.1
   name: spring-boot-app-feb9th
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
