@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: account-ms-feb9th
     - name: ang-jx
     - name: angular-jx
     - name: angular-jx-jan28
