@@ -14,6 +14,7 @@ data:
         vindhya-mora/bank-demo-feb8th: true
         vindhya-mora/fundtransfer-4thfeb: true
         vindhya-mora/fundtransfer-5thfeb: true
+        vindhya-mora/fundtransfer-app-feb9th: true
         vindhya-mora/fundtransfer-feb8th: true
         vindhya-mora/fundtransfer-jx-4thfeb: true
         vindhya-mora/fundtransfer-jxpipeline: true
@@ -45,6 +46,7 @@ data:
         vindhya-mora/bank-demo-feb8th: merge
         vindhya-mora/fundtransfer-4thfeb: merge
         vindhya-mora/fundtransfer-5thfeb: merge
+        vindhya-mora/fundtransfer-app-feb9th: merge
         vindhya-mora/fundtransfer-feb8th: merge
         vindhya-mora/fundtransfer-jx-4thfeb: merge
         vindhya-mora/fundtransfer-jxpipeline: merge
@@ -76,6 +78,7 @@ data:
         - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-app-feb9th
         - vindhya-mora/fundtransfer-feb8th
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/fundtransfer-jxpipeline
@@ -105,6 +108,7 @@ data:
         - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-app-feb9th
         - vindhya-mora/fundtransfer-feb8th
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/fundtransfer-jxpipeline
