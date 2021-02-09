@@ -23,6 +23,7 @@ data:
         vindhya-mora/jx-fundtransfer-4thfeb: true
         vindhya-mora/jx3-openshift: true
         vindhya-mora/python-31stjan: true
+        vindhya-mora/ref-impl-6-1-mfp-account-ms-master: true
         vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms: true
         vindhya-mora/spring-boot-app-feb9th: true
         vindhya-mora/spring-boot-rest-prometheus-java11: true
@@ -54,6 +55,7 @@ data:
         vindhya-mora/jx-fundtransfer-4thfeb: merge
         vindhya-mora/jx3-openshift: merge
         vindhya-mora/python-31stjan: merge
+        vindhya-mora/ref-impl-6-1-mfp-account-ms-master: merge
         vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms: merge
         vindhya-mora/spring-boot-app-feb9th: merge
         vindhya-mora/spring-boot-rest-prometheus-java11: merge
@@ -84,6 +86,7 @@ data:
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
         - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
         - vindhya-mora/spring-boot-app-feb9th
         - vindhya-mora/spring-boot-rest-prometheus-java11
@@ -113,6 +116,7 @@ data:
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
         - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
         - vindhya-mora/spring-boot-app-feb9th
         - vindhya-mora/spring-boot-rest-prometheus-java11
