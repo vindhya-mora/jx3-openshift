@@ -22,6 +22,7 @@ data:
         vindhya-mora/jx-fundtransfer-4thfeb: true
         vindhya-mora/jx3-openshift: true
         vindhya-mora/python-31stjan: true
+        vindhya-mora/spring-boot-app-feb9th: true
         vindhya-mora/spring-boot-rest-prometheus-java11: true
         vindhya-mora/yes: true
     plank: {}
@@ -50,6 +51,7 @@ data:
         vindhya-mora/jx-fundtransfer-4thfeb: merge
         vindhya-mora/jx3-openshift: merge
         vindhya-mora/python-31stjan: merge
+        vindhya-mora/spring-boot-app-feb9th: merge
         vindhya-mora/spring-boot-rest-prometheus-java11: merge
         vindhya-mora/yes: merge
       queries:
@@ -77,6 +79,7 @@ data:
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/spring-boot-app-feb9th
         - vindhya-mora/spring-boot-rest-prometheus-java11
         - vindhya-mora/yes
       - labels:
@@ -103,6 +106,7 @@ data:
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/spring-boot-app-feb9th
         - vindhya-mora/spring-boot-rest-prometheus-java11
         - vindhya-mora/yes
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
