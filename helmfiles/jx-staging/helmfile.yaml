@@ -18,5 +18,10 @@ releases:
   name: spring-boot-app-feb9th
   values:
   - jx-values.yaml
+- chart: dev/account-ms-feb9th
+  version: 0.0.1
+  name: account-ms-feb9th
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
