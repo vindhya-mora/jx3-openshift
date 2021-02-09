@@ -17,6 +17,7 @@ spec:
     - name: fundtransfer-feb8th
     - name: fundtransfer-jx-4thfeb
     - name: fundtransfer-jxpipeline
+    - name: funtransfer-feb9th
     - name: jenkins-jx
     - name: jx-angular
     - name: jx-fundtransfer-4thfeb
