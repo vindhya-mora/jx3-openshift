@@ -22,6 +22,7 @@ spec:
     - name: jx-angular
     - name: jx-fundtransfer-4thfeb
     - name: python-31stjan
+    - name: ref-impl-6-1-mfp-account-ms-master
     - name: ref-impl-6-1-mfp-fundtransfer-ms
     - name: spring-boot-app-feb9th
     - name: spring-boot-rest-prometheus-java11
