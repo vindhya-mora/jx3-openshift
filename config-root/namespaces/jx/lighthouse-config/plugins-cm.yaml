@@ -68,6 +68,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/spring-boot-app-feb9th
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -349,6 +353,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/spring-boot-app-feb9th:
       - approve
       - assign
@@ -453,6 +473,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/python-31stjan
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
       trusted_org: todo
     - repos:
       - vindhya-mora/spring-boot-app-feb9th
