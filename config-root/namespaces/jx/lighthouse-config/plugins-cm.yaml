@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/account-ms-feb9th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/ang-jx
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -101,6 +105,22 @@ data:
     owners: {}
     plugins:
       experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/account-ms-feb9th:
       - approve
       - assign
       - blunderbuss
@@ -451,6 +471,9 @@ data:
       trusted_org: todo
     - repos:
       - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/account-ms-feb9th
       trusted_org: todo
     - repos:
       - vindhya-mora/ang-jx
