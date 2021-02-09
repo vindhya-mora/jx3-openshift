@@ -14,6 +14,7 @@ spec:
     - name: bank-demo-feb8th
     - name: fundtransfer-4thfeb
     - name: fundtransfer-5thfeb
+    - name: fundtransfer-app-feb9th
     - name: fundtransfer-feb8th
     - name: fundtransfer-jx-4thfeb
     - name: fundtransfer-jxpipeline
