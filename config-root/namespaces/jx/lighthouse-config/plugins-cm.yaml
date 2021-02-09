@@ -64,6 +64,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/spring-boot-app-feb9th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/spring-boot-rest-prometheus-java11
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -325,6 +329,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/spring-boot-app-feb9th:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/spring-boot-rest-prometheus-java11:
       - approve
       - assign
@@ -410,6 +430,9 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/python-31stjan
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/spring-boot-app-feb9th
       trusted_org: todo
     - repos:
       - vindhya-mora/spring-boot-rest-prometheus-java11
