@@ -5,7 +5,7 @@ metadata:
   name: account-ms-feb9th-account-ms-feb9th
   labels:
     draft: draft-app
-    chart: "account-ms-feb9th-0.0.1"
+    chart: "account-ms-feb9th-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx-staging
   annotations:
@@ -24,29 +24,29 @@ spec:
       serviceAccountName: account-ms-feb9th-account-ms-feb9th
       containers:
         - name: account-ms-feb9th
-          image: "ghcr.io/vindhya-mora/account-ms-feb9th:0.0.1"
+          image: "ghcr.io/vindhya-mora/account-ms-feb9th:0.0.2"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.1
+              value: 0.0.2
           envFrom: null
           ports:
             - containerPort: 8080
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 8080
-            initialDelaySeconds: 60
-            periodSeconds: 10
-            successThreshold: 1
-            timeoutSeconds: 1
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 8080
-            periodSeconds: 10
-            successThreshold: 1
-            timeoutSeconds: 1
+              #         livenessProbe:
+              #           httpGet:
+              #             path: /
+              #             port: 8080
+              #           initialDelaySeconds: 60
+              #           periodSeconds: 10
+              #           successThreshold: 1
+              #           timeoutSeconds: 1
+              #         readinessProbe:
+              #           httpGet:
+              #             path: /
+              #             port: 8080
+              #           periodSeconds: 10
+              #           successThreshold: 1
+              #           timeoutSeconds: 1
           resources:
             limits:
               cpu: 400m

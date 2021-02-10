@@ -1,0 +1,59 @@
+# Source: account-ms-feb9th/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-10T10:16:17Z"
+  deletionTimestamp: null
+  name: 'account-ms-feb9th-0.0.2'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: a611eae114f462342877948fb6475581cf0719e5
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 5d928f390fe23ecbc6bfef600be97cd537261c01
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        fix(plugins): use a better version of maven plugins
+      sha: 6b8f227d8b81f08c4bdeeece434ac6380451333d
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: Jenkins X build pack
+      sha: 27a41dcc329f2d6d36d532a4309418e52262ddd8
+  gitHttpUrl: https://github.com/vindhya-mora/account-ms-feb9th
+  gitOwner: vindhya-mora
+  gitRepository: account-ms-feb9th
+  name: 'account-ms-feb9th'
+  releaseNotesURL: https://github.com/vindhya-mora/account-ms-feb9th/releases/tag/v0.0.2
+  version: v0.0.2
+status: {}
