@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: account-ms-feb9th
   labels:
-    chart: "account-ms-feb9th-0.0.1"
+    chart: "account-ms-feb9th-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     fabric8.io/expose: "true"
