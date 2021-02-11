@@ -5,7 +5,7 @@ metadata:
   name: account-ms-feb9th-account-ms-feb9th
   labels:
     draft: draft-app
-    chart: "account-ms-feb9th-0.0.2"
+    chart: "account-ms-feb9th-0.0.3"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx-staging
   annotations:
@@ -24,11 +24,11 @@ spec:
       serviceAccountName: account-ms-feb9th-account-ms-feb9th
       containers:
         - name: account-ms-feb9th
-          image: "ghcr.io/vindhya-mora/account-ms-feb9th:0.0.2"
+          image: "ghcr.io/vindhya-mora/account-ms-feb9th:0.0.3"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.2
+              value: 0.0.3
           envFrom: null
           ports:
             - containerPort: 8080
