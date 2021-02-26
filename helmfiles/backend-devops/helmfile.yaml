@@ -1,10 +1,17 @@
 filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
 repositories:
 - name: ibm-charts
   url: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
 releases:
 - chart: ibm-charts/ibm-mobilefoundation-dev
   version: 1.2.0
+  name: ibm-mobilefoundation-dev
   namespace: backend-devops
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
