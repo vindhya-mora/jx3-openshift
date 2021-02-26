@@ -60,7 +60,7 @@ releases:
   - jx-values.yaml
 - chart: ibm-charts/ibm-mobilefoundation-dev
   version: 1.2.0
-  name: mfp8-chart
+  name: mfp8-jx
   values:
   - jx-values.yaml
 templates: {}
