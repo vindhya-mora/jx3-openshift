@@ -1,3 +1,28 @@
+- namespace: backend-devops
+  path: helmfiles/backend-devops/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    appVersion: 8.0.0
+    description: IBM Mobile Foundation for Developers 8.0
+    home: https://www.ibm.com/mobile
+    icon: https://mobilefirstplatform.ibmcloud.com/assets/foundation.svg
+    keywords:
+    - Limited
+    - Integration
+    - runtime
+    - framework
+    - amd64
+    - ppc64le
+    - s390x
+    - ICP
+    kubeVersion: '>=1.11.0'
+    maintainers:
+    - name: IBM Mobile
+    name: ibm-mobilefoundation-dev
+    repositoryName: ibm-charts
+    repositoryUrl: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
+    resourcePath: config-root/namespaces/backend-devops/ibm-mobilefoundation-dev
+    version: 1.2.0
 - namespace: jenkins-for-jx
   path: helmfiles/jenkins-for-jx/helmfile.yaml
   releases:
