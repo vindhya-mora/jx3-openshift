@@ -60,8 +60,8 @@ releases:
   - jx-values.yaml
 - chart: ibm-charts/ibm-mobilefoundation-dev
   version: 1.2.0
-  namespace: backend-devops
   name: mfp8-jx
+  namespace: backend-devops
   values:
   - jx-values.yaml
 templates: {}
