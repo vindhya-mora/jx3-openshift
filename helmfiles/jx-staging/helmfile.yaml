@@ -13,5 +13,15 @@ releases:
   name: python-31stjan
   values:
   - jx-values.yaml
+- chart: dev/spring-boot-app-feb9th
+  version: 0.0.1
+  name: spring-boot-app-feb9th
+  values:
+  - jx-values.yaml
+- chart: dev/account-ms-feb9th
+  version: 0.0.6
+  name: account-ms-feb9th
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}

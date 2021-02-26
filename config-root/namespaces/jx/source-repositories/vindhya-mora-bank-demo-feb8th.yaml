@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: bank-demo-feb8th
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-bank-demo-feb8th
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/bank-demo-feb8th.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bank-demo-feb8th
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/bank-demo-feb8th

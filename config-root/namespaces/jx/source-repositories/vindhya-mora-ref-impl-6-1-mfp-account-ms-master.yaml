@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vindhya-mora
+    provider: github
+    repository: ref-impl-6-1-mfp-account-ms-master
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: vindhya-mora-ref-impl-6-1-mfp-account-ms-master
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/vindhya-mora/ref-impl-6-1-mfp-account-ms-master.git
+  org: vindhya-mora
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ref-impl-6-1-mfp-account-ms-master
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/vindhya-mora/ref-impl-6-1-mfp-account-ms-master

@@ -7,18 +7,27 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms: true
+        vindhya-mora/account-ms-feb9th: true
         vindhya-mora/ang-jx: true
         vindhya-mora/angular-jx: true
         vindhya-mora/angular-jx-jan28: true
+        vindhya-mora/bank-demo-feb8th: true
         vindhya-mora/fundtransfer-4thfeb: true
         vindhya-mora/fundtransfer-5thfeb: true
+        vindhya-mora/fundtransfer-feb8th: true
         vindhya-mora/fundtransfer-jx-4thfeb: true
         vindhya-mora/fundtransfer-jxpipeline: true
+        vindhya-mora/funtransfer-feb9th: true
         vindhya-mora/jenkins-jx: true
         vindhya-mora/jx-angular: true
         vindhya-mora/jx-fundtransfer-4thfeb: true
         vindhya-mora/jx3-openshift: true
         vindhya-mora/python-31stjan: true
+        vindhya-mora/ref-impl-6-1-mfp-account-ms-master: true
+        vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms: true
+        vindhya-mora/spring-boot-app-feb9th: true
+        vindhya-mora/spring-boot-rest-prometheus-java11: true
         vindhya-mora/yes: true
     plank: {}
     pod_namespace: jx
@@ -31,18 +40,27 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms: merge
+        vindhya-mora/account-ms-feb9th: merge
         vindhya-mora/ang-jx: merge
         vindhya-mora/angular-jx: merge
         vindhya-mora/angular-jx-jan28: merge
+        vindhya-mora/bank-demo-feb8th: merge
         vindhya-mora/fundtransfer-4thfeb: merge
         vindhya-mora/fundtransfer-5thfeb: merge
+        vindhya-mora/fundtransfer-feb8th: merge
         vindhya-mora/fundtransfer-jx-4thfeb: merge
         vindhya-mora/fundtransfer-jxpipeline: merge
+        vindhya-mora/funtransfer-feb9th: merge
         vindhya-mora/jenkins-jx: merge
         vindhya-mora/jx-angular: merge
         vindhya-mora/jx-fundtransfer-4thfeb: merge
         vindhya-mora/jx3-openshift: merge
         vindhya-mora/python-31stjan: merge
+        vindhya-mora/ref-impl-6-1-mfp-account-ms-master: merge
+        vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms: merge
+        vindhya-mora/spring-boot-app-feb9th: merge
+        vindhya-mora/spring-boot-rest-prometheus-java11: merge
         vindhya-mora/yes: merge
       queries:
       - labels:
@@ -55,17 +73,26 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
+        - vindhya-mora/account-ms-feb9th
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-feb8th
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/fundtransfer-jxpipeline
+        - vindhya-mora/funtransfer-feb9th
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
+        - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
+        - vindhya-mora/spring-boot-app-feb9th
+        - vindhya-mora/spring-boot-rest-prometheus-java11
         - vindhya-mora/yes
       - labels:
         - updatebot
@@ -77,17 +104,26 @@ data:
         - needs-rebase
         repos:
         - vindhya-mora/jx3-openshift
+        - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
+        - vindhya-mora/account-ms-feb9th
         - vindhya-mora/ang-jx
         - vindhya-mora/angular-jx-jan28
         - vindhya-mora/angular-jx
+        - vindhya-mora/bank-demo-feb8th
         - vindhya-mora/fundtransfer-4thfeb
         - vindhya-mora/fundtransfer-5thfeb
+        - vindhya-mora/fundtransfer-feb8th
         - vindhya-mora/fundtransfer-jx-4thfeb
         - vindhya-mora/fundtransfer-jxpipeline
+        - vindhya-mora/funtransfer-feb9th
         - vindhya-mora/jenkins-jx
         - vindhya-mora/jx-angular
         - vindhya-mora/jx-fundtransfer-4thfeb
         - vindhya-mora/python-31stjan
+        - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
+        - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
+        - vindhya-mora/spring-boot-app-feb9th
+        - vindhya-mora/spring-boot-rest-prometheus-java11
         - vindhya-mora/yes
       target_url: http://dashboard-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
 kind: ConfigMap

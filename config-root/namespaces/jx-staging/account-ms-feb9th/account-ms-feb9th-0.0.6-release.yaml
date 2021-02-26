@@ -1,0 +1,39 @@
+# Source: account-ms-feb9th/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-15T06:58:21Z"
+  deletionTimestamp: null
+  name: 'account-ms-feb9th-0.0.6'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.3
+      sha: 33a0a9b388aac6cf787c59fa827b78ed84e8d2c3
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 7cc909513557f3b278c4181555e69d5b6408e0ea
+  gitHttpUrl: https://github.com/vindhya-mora/account-ms-feb9th
+  gitOwner: vindhya-mora
+  gitRepository: account-ms-feb9th
+  name: 'account-ms-feb9th'
+  releaseNotesURL: https://github.com/vindhya-mora/account-ms-feb9th/releases/tag/v0.0.6
+  version: v0.0.6
+status: {}

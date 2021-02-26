@@ -8,6 +8,14 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/account-ms-feb9th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/ang-jx
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -20,6 +28,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/bank-demo-feb8th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/fundtransfer-4thfeb
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -28,11 +40,19 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/fundtransfer-feb8th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/fundtransfer-jx-4thfeb
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
       - vindhya-mora/fundtransfer-jxpipeline
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/funtransfer-feb9th
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
@@ -52,6 +72,22 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/spring-boot-app-feb9th
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - vindhya-mora/spring-boot-rest-prometheus-java11
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - vindhya-mora/yes
       require_self_approval: true
     cat: {}
@@ -68,6 +104,38 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/account-ms-feb9th:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/ang-jx:
       - approve
       - assign
@@ -116,6 +184,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/bank-demo-feb8th:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/fundtransfer-4thfeb:
       - approve
       - assign
@@ -148,6 +232,22 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/fundtransfer-feb8th:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/fundtransfer-jx-4thfeb:
       - approve
       - assign
@@ -165,6 +265,22 @@ data:
       - dog
       - pony
       vindhya-mora/fundtransfer-jxpipeline:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/funtransfer-feb9th:
       - approve
       - assign
       - blunderbuss
@@ -261,6 +377,70 @@ data:
       - cat
       - dog
       - pony
+      vindhya-mora/ref-impl-6-1-mfp-account-ms-master:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/spring-boot-app-feb9th:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      vindhya-mora/spring-boot-rest-prometheus-java11:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       vindhya-mora/yes:
       - approve
       - assign
@@ -290,6 +470,12 @@ data:
       - vindhya-mora/jx3-openshift
       trusted_org: todo
     - repos:
+      - experiential-squads/ref-impl-6-1-mfp-fundtransfer-ms
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/account-ms-feb9th
+      trusted_org: todo
+    - repos:
       - vindhya-mora/ang-jx
       trusted_org: todo
     - repos:
@@ -299,16 +485,25 @@ data:
       - vindhya-mora/angular-jx
       trusted_org: todo
     - repos:
+      - vindhya-mora/bank-demo-feb8th
+      trusted_org: todo
+    - repos:
       - vindhya-mora/fundtransfer-4thfeb
       trusted_org: todo
     - repos:
       - vindhya-mora/fundtransfer-5thfeb
       trusted_org: todo
     - repos:
+      - vindhya-mora/fundtransfer-feb8th
+      trusted_org: todo
+    - repos:
       - vindhya-mora/fundtransfer-jx-4thfeb
       trusted_org: todo
     - repos:
       - vindhya-mora/fundtransfer-jxpipeline
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/funtransfer-feb9th
       trusted_org: todo
     - repos:
       - vindhya-mora/jenkins-jx
@@ -321,6 +516,18 @@ data:
       trusted_org: todo
     - repos:
       - vindhya-mora/python-31stjan
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/ref-impl-6-1-mfp-account-ms-master
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/ref-impl-6-1-mfp-fundtransfer-ms
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/spring-boot-app-feb9th
+      trusted_org: todo
+    - repos:
+      - vindhya-mora/spring-boot-rest-prometheus-java11
       trusted_org: todo
     - repos:
       - vindhya-mora/yes

@@ -1,0 +1,8 @@
+# Source: spring-boot-app-feb9th/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: spring-boot-app-feb9th-spring-boot-app-feb9th
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

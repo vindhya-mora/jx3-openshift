@@ -5,7 +5,7 @@ metadata:
   name: bucketrepo-bucketrepo
   labels:
     app: bucketrepo-bucketrepo
-    chart: "bucketrepo-0.1.53"
+    chart: "bucketrepo-0.1.54"
     release: bucketrepo
     heritage: Helm
     gitops.jenkins-x.io/pipeline: 'namespaces'

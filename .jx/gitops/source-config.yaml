@@ -8,16 +8,38 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: account-ms-feb9th
     - name: ang-jx
     - name: angular-jx
     - name: angular-jx-jan28
+    - name: bank-demo-feb8th
     - name: fundtransfer-4thfeb
     - name: fundtransfer-5thfeb
+    - name: fundtransfer-feb8th
     - name: fundtransfer-jx-4thfeb
     - name: fundtransfer-jxpipeline
+    - name: funtransfer-feb9th
     - name: jenkins-jx
     - name: jx-angular
     - name: jx-fundtransfer-4thfeb
     - name: python-31stjan
+    - name: ref-impl-6-1-mfp-account-ms-master
+    - name: ref-impl-6-1-mfp-fundtransfer-ms
+    - name: spring-boot-app-feb9th
+    - name: spring-boot-rest-prometheus-java11
     - name: "yes"
     scheduler: in-repo
+  - owner: experiential-squads
+    provider: https://github.ibm.com
+    providerKind: github
+    repositories:
+    - name: ref-impl-6-1-mfp-fundtransfer-ms
+    scheduler: in-repo
+  jenkinsServers:
+  - groups:
+    - owner: vindhya-mora
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: spring-boot-maven-jenkinsfile
+    server: jenkins-for-jx
