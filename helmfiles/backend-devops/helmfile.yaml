@@ -1,0 +1,10 @@
+filepath: ""
+repositories:
+- name: ibm-charts
+  url: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
+releases:
+- chart: ibm-charts/ibm-mobilefoundation-dev
+  version: 1.2.0
+  namespace: backend-devops
+templates: {}
+renderedvalues: {}
