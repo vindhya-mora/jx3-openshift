@@ -208,7 +208,7 @@
     name: ibm-mobilefoundation-dev
     repositoryName: ibm-charts
     repositoryUrl: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
-    resourcePath: config-root/namespaces/jx/ibm-mobilefoundation-dev-mfp8-chart
+    resourcePath: config-root/namespaces/jx/ibm-mobilefoundation-dev-mfp8-jx
     version: 1.2.0
 - namespace: tekton-pipelines
   path: helmfiles/tekton-pipelines/helmfile.yaml
