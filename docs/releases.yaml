@@ -1,3 +1,89 @@
+- namespace: jenkins-for-jx
+  path: helmfiles/jenkins-for-jx/helmfile.yaml
+  releases:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/jenkinsci/helm-charts/tree/main/charts/jenkins
+        - name: Jenkins
+          url: https://www.jenkins.io/
+    apiVersion: v2
+    appVersion: 2.263.4
+    applicationUrl: http://jenkins-jenkins-for-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    description: Jenkins - Build great things at any scale! The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    ingresses:
+    - name: jenkins
+      url: http://jenkins-jenkins-for-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    maintainers:
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    - email: wmcdona89@gmail.com
+      name: wmcdona89
+    - email: timjacomb1@gmail.com
+      name: timja
+    name: jenkins
+    repositoryName: jenkinsci
+    repositoryUrl: https://charts.jenkins.io
+    resourcePath: config-root/namespaces/jenkins-for-jx/jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-inbound-agent
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+  - apiVersion: v1
+    appVersion: 1.0.0
+    description: A Helm chart for Jenkins Resources
+    home: https://github.com/jenkins-x-charts/jenkins-resources
+    icon: ttps://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    name: jenkins-resources
+    repositoryName: jx3
+    repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
+    resourcePath: config-root/namespaces/jenkins-for-jx/jenkins-resources
+- namespace: jx-staging
+  path: helmfiles/jx-staging/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    applicationUrl: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    description: A Helm chart for Kubernetes
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    ingresses:
+    - name: python-31stjan
+      url: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    name: python-31stjan
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/python-31stjan
+    version: 0.0.1
+  - apiVersion: v1
+    applicationUrl: http://spring-boot-app-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    description: A Helm chart for Kubernetes
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    ingresses:
+    - name: spring-boot-app-feb9th
+      url: http://spring-boot-app-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    name: spring-boot-app-feb9th
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/spring-boot-app-feb9th
+    version: 0.0.1
+  - apiVersion: v1
+    applicationUrl: http://account-ms-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    description: A Helm chart for Kubernetes
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    ingresses:
+    - name: account-ms-feb9th
+      url: http://account-ms-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+    name: account-ms-feb9th
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/account-ms-feb9th
+    version: 0.0.6
 - namespace: jx
   path: helmfiles/jx/helmfile.yaml
   releases:
@@ -102,6 +188,27 @@
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
     resourcePath: config-root/namespaces/jx/local-external-secrets
     version: 0.0.6
+  - apiVersion: v1
+    appVersion: 8.0.0
+    description: IBM Mobile Foundation for Developers 8.0
+    home: https://www.ibm.com/mobile
+    icon: https://mobilefirstplatform.ibmcloud.com/assets/foundation.svg
+    keywords:
+    - Limited
+    - Integration
+    - runtime
+    - framework
+    - amd64
+    - ppc64le
+    - s390x
+    - ICP
+    kubeVersion: '>=1.11.0'
+    maintainers:
+    - name: IBM Mobile
+    name: ibm-mobilefoundation-dev
+    repositoryName: ibm-charts
+    repositoryUrl: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
+    resourcePath: config-root/namespaces/jx/ibm-mobilefoundation-dev-mfp8-chart
 - namespace: tekton-pipelines
   path: helmfiles/tekton-pipelines/helmfile.yaml
   releases:
@@ -115,18 +222,3 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.20.1
-- namespace: jx-staging
-  path: helmfiles/jx-staging/helmfile.yaml
-  releases:
-  - apiVersion: v1
-    applicationUrl: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
-    description: A Helm chart for Kubernetes
-    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    ingresses:
-    - name: python-31stjan
-      url: http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
-    name: python-31stjan
-    repositoryName: dev
-    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    resourcePath: config-root/namespaces/jx-staging/python-31stjan
-    version: 0.0.1
