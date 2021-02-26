@@ -12,12 +12,12 @@ apiVersion: networking.k8s.io/v1beta1
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: mfp8-chart-ibm-mobilefoundation-dev
+  name: mfp8-jx-ibm-mobilefoundation-dev
   labels:
     helm.sh/chart: "ibm-mobilefoundation-dev-1.2.0"
-    app.kubernetes.io/name: mfp8-chart-ibm-mobilefoundation-dev
-    app.kubernetes.io/instance: "mfp8-chart"
-    release: "mfp8-chart"
+    app.kubernetes.io/name: mfp8-jx-ibm-mobilefoundation-dev
+    app.kubernetes.io/instance: "mfp8-jx"
+    release: "mfp8-jx"
     app.kubernetes.io/managed-by: "Helm"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
@@ -43,45 +43,45 @@ spec:
         paths:
           - path: /mfpconsole
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /mfp
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /imfpush
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /mfpadmin
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /mfpadminconfig
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /doc
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /analytics
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /analytics-service
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /analytics-receiver
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /mfpliveupdate
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443
           - path: /appcenterconsole
             backend:
-              serviceName: mfp8-chart-ibm-mobilefoundation-dev
+              serviceName: mfp8-jx-ibm-mobilefoundation-dev
               servicePort: 9443

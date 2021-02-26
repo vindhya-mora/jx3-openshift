@@ -11,13 +11,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mfp8-chart-ibm-mobilefoundation-dev
+  name: mfp8-jx-ibm-mobilefoundation-dev
   labels:
-    app.kubernetes.io/name: mfp8-chart-ibm-mobilefoundation-dev
+    app.kubernetes.io/name: mfp8-jx-ibm-mobilefoundation-dev
     helm.sh/chart: ibm-mobilefoundation-dev-1.2.0
-    release: "mfp8-chart"
+    release: "mfp8-jx"
     app.kubernetes.io/managed-by: "Helm"
-    app.kubernetes.io/instance: "mfp8-chart"
+    app.kubernetes.io/instance: "mfp8-jx"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx
 spec:
@@ -32,5 +32,5 @@ spec:
       protocol: TCP
       name: https
   selector:
-    app.kubernetes.io/name: mfp8-chart-ibm-mobilefoundation-dev
-    release: mfp8-chart
+    app.kubernetes.io/name: mfp8-jx-ibm-mobilefoundation-dev
+    release: mfp8-jx

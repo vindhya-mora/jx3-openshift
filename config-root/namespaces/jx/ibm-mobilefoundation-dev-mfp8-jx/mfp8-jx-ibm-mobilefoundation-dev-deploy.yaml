@@ -11,13 +11,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mfp8-chart-ibm-mobilefoundation-dev
+  name: mfp8-jx-ibm-mobilefoundation-dev
   labels:
-    app.kubernetes.io/name: mfp8-chart-ibm-mobilefoundation-dev
+    app.kubernetes.io/name: mfp8-jx-ibm-mobilefoundation-dev
     helm.sh/chart: ibm-mobilefoundation-dev-1.2.0
-    release: "mfp8-chart"
+    release: "mfp8-jx"
     app.kubernetes.io/managed-by: "Helm"
-    app.kubernetes.io/instance: "mfp8-chart"
+    app.kubernetes.io/instance: "mfp8-jx"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx
   annotations:
@@ -25,7 +25,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      release: mfp8-chart
+      release: mfp8-jx
   replicas: 1
   template:
     metadata:
@@ -34,11 +34,11 @@ spec:
         productID: IBMMobileFirstPlatformFoundation_8000_perpetual_00000
         productVersion: 8.0.0.0
       labels:
-        app.kubernetes.io/name: mfp8-chart-ibm-mobilefoundation-dev
+        app.kubernetes.io/name: mfp8-jx-ibm-mobilefoundation-dev
         helm.sh/chart: ibm-mobilefoundation-dev-1.2.0
-        release: "mfp8-chart"
+        release: "mfp8-jx"
         app.kubernetes.io/managed-by: "Helm"
-        app.kubernetes.io/instance: "mfp8-chart"
+        app.kubernetes.io/instance: "mfp8-jx"
     spec:
       affinity:
         nodeAffinity:
@@ -91,11 +91,11 @@ spec:
                     - key: app
                       operator: In
                       values:
-                        - mfp8-chart-ibm-mobilefoundation-dev
+                        - mfp8-jx-ibm-mobilefoundation-dev
                     - key: release
                       operator: In
                       values:
-                        - "mfp8-chart"
+                        - "mfp8-jx"
                 topologyKey: kubernetes.io/hostname
       volumes:
       hostNetwork: false
@@ -105,7 +105,7 @@ spec:
         runAsNonRoot: true
         runAsUser: 1001
       containers:
-        - name: mfp8-chart-ibm-mobilefoundation-dev
+        - name: mfp8-jx-ibm-mobilefoundation-dev
           readinessProbe:
             httpGet:
               path: /
@@ -147,21 +147,21 @@ spec:
             - name: WLP_LOGGING_CONSOLE_SOURCE
               value: "message,trace,accessLog,ffdc"
             - name: RUNTIME_SVC_NAME
-              value: mfp8-chart-ibm-mobilefoundation-dev
+              value: mfp8-jx-ibm-mobilefoundation-dev
             - name: ADMIN_HOST
-              value: mfp8-chart-ibm-mobilefoundation-dev
+              value: mfp8-jx-ibm-mobilefoundation-dev
             - name: MFPF_SERVER_PROTOCOL
               value: "https"
             - name: MFPF_SERVER_PORT
               value: "9443"
             - name: ANALYTICS_SVC_NAME
-              value: mfp8-chart-ibm-mobilefoundation-dev
+              value: mfp8-jx-ibm-mobilefoundation-dev
             - name: MFPF_ANALYTICS_PROTOCOL
               value: "https"
             - name: ANALYTICS_PORT
               value: "9443"
             - name: PUSH_SVC_NAME
-              value: mfp8-chart-ibm-mobilefoundation-dev
+              value: mfp8-jx-ibm-mobilefoundation-dev
             - name: MFPF_PUSH_PROTOCOL
               value: "https"
             - name: PUSH_PORT
