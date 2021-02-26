@@ -7,6 +7,7 @@ namespace: jx
 repositories:
 - name: jenkins-x
   url: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+- name: ibm-charts  
   url: https://raw.githubusercontent.com/IBM/charts/master/repo/stable
 - name: jx3
   url: https://storage.googleapis.com/jenkinsxio/charts
@@ -57,7 +58,7 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
-- chart: jenkins-x/ibm-mobilefoundation-dev
+- chart: ibm-charts/ibm-mobilefoundation-dev
   name: mfp8-chart
 templates: {}
 renderedvalues: {}
