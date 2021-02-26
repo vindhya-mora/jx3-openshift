@@ -102,7 +102,7 @@
 	    </tr>
     <tr>
 	      <td><a href='https://www.ibm.com/mobile' title='IBM Mobile Foundation for Developers 8.0'> <img src='https://mobilefirstplatform.ibmcloud.com/assets/foundation.svg' width='24px' height='24px'> ibm-mobilefoundation-dev </a></td>
-	      <td></td>
+	      <td>1.2.0</td>
 	      <td></td>
 	      <td><a href='https://www.ibm.com/mobile'>source</a></td>
 	    </tr>
