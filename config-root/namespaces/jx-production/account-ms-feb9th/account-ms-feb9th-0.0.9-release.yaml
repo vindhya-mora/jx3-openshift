@@ -1,0 +1,39 @@
+# Source: account-ms-feb9th/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-01T11:28:20Z"
+  deletionTimestamp: null
+  name: 'account-ms-feb9th-0.0.9'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.7
+      sha: a07650a7798ed91c4a4cfa268807aa1115c61cd9
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 7977ec717cf38179b51041018bbf09a7193905f9
+  gitHttpUrl: https://github.com/vindhya-mora/account-ms-feb9th
+  gitOwner: vindhya-mora
+  gitRepository: account-ms-feb9th
+  name: 'account-ms-feb9th'
+  releaseNotesURL: https://github.com/vindhya-mora/account-ms-feb9th/releases/tag/v0.0.9
+  version: v0.0.9
+status: {}
