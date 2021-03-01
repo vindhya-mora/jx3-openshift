@@ -1,0 +1,48 @@
+# Source: account-ms-feb9th/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-01T09:27:39Z"
+  deletionTimestamp: null
+  name: 'account-ms-feb9th-0.0.7'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.6
+      sha: e5dde3b5496163a98bd54044757009dd90d4b94a
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 73d4ede002dbc2bb3fe7e4e6f014c64bc8aee9e6
+    - author:
+        email: 55979118+vindhya-mora@users.noreply.github.com
+        name: vindhya-mora
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Update README.md
+      sha: ab2c89d306407e641002ec6c94edaf2b3e3b1af9
+  gitHttpUrl: https://github.com/vindhya-mora/account-ms-feb9th
+  gitOwner: vindhya-mora
+  gitRepository: account-ms-feb9th
+  name: 'account-ms-feb9th'
+  releaseNotesURL: https://github.com/vindhya-mora/account-ms-feb9th/releases/tag/v0.0.7
+  version: v0.0.7
+status: {}
