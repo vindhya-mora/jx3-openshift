@@ -19,7 +19,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: dev/account-ms-feb9th
-  version: 0.0.7
+  version: 0.0.9
   name: account-ms-feb9th
   values:
   - jx-values.yaml
