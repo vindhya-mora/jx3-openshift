@@ -1,0 +1,21 @@
+# Source: account-ms-feb9th/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: account-ms-feb9th
+  labels:
+    chart: "account-ms-feb9th-0.0.7"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    fabric8.io/expose: "true"
+    fabric8.io/ingress.annotations: 'kubernetes.io/ingress.class: nginx'
+  namespace: jx-production
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 8080
+      protocol: TCP
+      name: http
+  selector:
+    app: account-ms-feb9th-account-ms-feb9th
