@@ -5,7 +5,6 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     clusterName: todo
     devEnvApprovers:
     - todo
@@ -32,7 +31,7 @@ spec:
       production: false
   pipelineUser:
     username: vindhya-mora
-  repository: bucketrepo
+  repository: nexus
   secretStorage: local
   vault: {}
   webhook: lighthouse
