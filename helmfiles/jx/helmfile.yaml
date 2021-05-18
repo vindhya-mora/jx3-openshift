@@ -45,12 +45,6 @@ releases:
   values:
   - ../../versionStream/charts/jenkins-x/lighthouse/values.yaml.gotmpl
   - jx-values.yaml
-- chart: jenkins-x/bucketrepo
-  version: 0.1.54
-  name: bucketrepo
-  values:
-  - ../../versionStream/charts/jenkins-x/bucketrepo/values.yaml.gotmpl
-  - jx-values.yaml
 - chart: jx3/jx-build-controller
   version: 0.0.28
   name: jx-build-controller
