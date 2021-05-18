@@ -6,7 +6,7 @@ metadata:
   namespace: jenkins-for-jx
   labels:
     "app.kubernetes.io/name": 'jenkins'
-    "helm.sh/chart": "jenkins-3.1.15"
+    "helm.sh/chart": "jenkins-3.3.16"
     "app.kubernetes.io/managed-by": "Helm"
     "app.kubernetes.io/instance": "jenkins"
     "app.kubernetes.io/component": "jenkins-controller"
@@ -26,7 +26,7 @@ spec:
         "app.kubernetes.io/instance": "jenkins"
         "app.kubernetes.io/component": "jenkins-controller"
       annotations:
-        checksum/config: a773cba5313cedc3c53bd14eeefa4f6e30e20c0a58214b78ec6192a01beba1a7
+        checksum/config: ff70d80e5ca680529f6e2868a875049f2dacffd2cabbc66d13e4ff08df62fb53
     spec:
       securityContext:
         runAsUser: 1000
@@ -35,7 +35,7 @@ spec:
       serviceAccountName: "jenkins"
       initContainers:
         - name: "init"
-          image: "jenkins/jenkins:2.263.4"
+          image: "jenkins/jenkins:2.277.4-jdk11"
           imagePullPolicy: "Always"
           command: ["sh", "/var/jenkins_config/apply_config.sh"]
           resources:
@@ -56,7 +56,7 @@ spec:
               name: plugin-dir
       containers:
         - name: jenkins
-          image: "jenkins/jenkins:2.263.4"
+          image: "jenkins/jenkins:2.277.4-jdk11"
           imagePullPolicy: "Always"
           args: ["--httpPort=8080"]
           env:

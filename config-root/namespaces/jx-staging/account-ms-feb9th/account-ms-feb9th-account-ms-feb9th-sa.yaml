@@ -1,8 +1,0 @@
-# Source: account-ms-feb9th/templates/sa.yaml
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: account-ms-feb9th-account-ms-feb9th
-  namespace: jx-staging
-  labels:
-    gitops.jenkins-x.io/pipeline: 'namespaces'

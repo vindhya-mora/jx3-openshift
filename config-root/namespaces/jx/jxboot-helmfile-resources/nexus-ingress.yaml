@@ -1,10 +1,10 @@
-# Source: jxboot-helmfile-resources/templates/700-bucketrepo-ing.yaml
+# Source: jxboot-helmfile-resources/templates/700-nexus-ing.yaml
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
-  name: bucketrepo
+  name: nexus
   namespace: jx
   labels:
     gitops.jenkins-x.io/pipeline: 'namespaces'
@@ -13,7 +13,7 @@ spec:
     - http:
         paths:
           - backend:
-              serviceName: bucketrepo
+              serviceName: nexus
               servicePort: 80
             path: "/"
-      host: bucketrepo-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud
+      host: nexus-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud

@@ -1,0 +1,18 @@
+# Source: jenkins-resources/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-31T16:18:31Z"
+  deletionTimestamp: null
+  name: 'jenkins-resources-0.0.5'
+  namespace: jenkins-for-jx
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  gitCloneUrl: https://github.com/jenkins-x-charts/jenkins-resources.git
+  gitHttpUrl: https://github.com/jenkins-x-charts/jenkins-resources
+  gitOwner: jenkins-x-charts
+  gitRepository: jenkins-resources
+  name: 'jenkins-resources'
+  version: v0.0.5
+status: {}

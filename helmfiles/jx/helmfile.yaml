@@ -21,7 +21,7 @@ releases:
   name: nexus
   values:
   - ../../versionStream/charts/jenkins-x/nexus/values.yaml.gotmpl
-  - jx-values.yaml  
+  - jx-values.yaml
 - chart: jx3/jenkins-x-crds
   version: 3.0.5
   name: jenkins-x-crds

@@ -1,11 +1,11 @@
 # Source: jenkins/templates/jenkins-controller-ingress.yaml
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   namespace: jenkins-for-jx
   labels:
     "app.kubernetes.io/name": 'jenkins'
-    "helm.sh/chart": "jenkins-3.1.15"
+    "helm.sh/chart": "jenkins-3.3.16"
     "app.kubernetes.io/managed-by": "Helm"
     "app.kubernetes.io/instance": "jenkins"
     "app.kubernetes.io/component": "jenkins-controller"
@@ -16,6 +16,9 @@ spec:
     - http:
         paths:
           - backend:
-              serviceName: jenkins
-              servicePort: 8080
+              service:
+                name: jenkins
+                port:
+                  number: 8080
+            pathType: ImplementationSpecific
       host: "jenkins-jenkins-for-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud"

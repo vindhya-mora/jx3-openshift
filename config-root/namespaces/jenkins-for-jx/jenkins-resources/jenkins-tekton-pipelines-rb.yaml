@@ -1,0 +1,16 @@
+# Source: jenkins-resources/templates/tekton-rolebinding.yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: jenkins-tekton-pipelines
+  namespace: jenkins-for-jx
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: jenkins-tekton-pipelines
+subjects:
+  - kind: ServiceAccount
+    name: "jenkins"
+    namespace: jenkins-for-jx
