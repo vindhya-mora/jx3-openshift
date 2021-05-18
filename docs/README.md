@@ -26,7 +26,7 @@
 	    <tr>
 	      <td><a href='https://jenkins.io/' title='Jenkins - Build great things at any scale! The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.'> <img src='https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png' width='24px' height='24px'> jenkins </a></td>
 	      <td></td>
-	      <td><a href='http://jenkins-jenkins-for-jx.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud'>view</a></td>
+	      <td></td>
 	      <td><a href='https://jenkins.io/'>source</a></td>
 	    </tr>
     <tr>
@@ -36,27 +36,6 @@
 	      <td><a href='https://github.com/jenkins-x-charts/jenkins-resources'>source</a></td>
 	    </tr>
     <tr>
-		      <td colspan='4'><h3>jx-staging</h3></td>
-		    </tr>
-	    <tr>
-	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> python-31stjan </a></td>
-	      <td>0.0.1</td>
-	      <td><a href='http://python-31stjan-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud'>view</a></td>
-	      <td></td>
-	    </tr>
-    <tr>
-	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> spring-boot-app-feb9th </a></td>
-	      <td>0.0.1</td>
-	      <td><a href='http://spring-boot-app-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud'>view</a></td>
-	      <td></td>
-	    </tr>
-    <tr>
-	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> account-ms-feb9th </a></td>
-	      <td>0.0.6</td>
-	      <td><a href='http://account-ms-feb9th-jx-staging.devopsnextgenlatestdal13-f3fc6b3f137d049465f1eda82e10db30-0000.us-south.containers.appdomain.cloud'>view</a></td>
-	      <td></td>
-	    </tr>
-    <tr>
 		      <td colspan='4'><h3>jx</h3></td>
 		    </tr>
 	    <tr>
@@ -64,6 +43,12 @@
 	      <td>1.0.27</td>
 	      <td></td>
 	      <td><a href='https://github.com/jenkins-x-charts/jxboot-helmfile-resources'>source</a></td>
+	    </tr>
+    <tr>
+	      <td><a href='https://github.com/jenkins-x-charts/nexus' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/jenkins-x-platform/images/nexus.png' width='24px' height='24px'> nexus </a></td>
+	      <td>0.1.37</td>
+	      <td></td>
+	      <td><a href='https://github.com/jenkins-x-charts/nexus'>source</a></td>
 	    </tr>
     <tr>
 	      <td><a href='' title='Custom Resource Definitions for Jenkins X'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/d273e09/images/go.png' width='24px' height='24px'> jenkins-x-crds </a></td>
@@ -90,12 +75,6 @@
 	      <td>0.0.923</td>
 	      <td></td>
 	      <td><a href='https://github.com/jenkins-x/lighthouse'>source</a></td>
-	    </tr>
-    <tr>
-	      <td><a href='' title='A Helm chart for bucketrepo service'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/d273e09/images/go.png' width='24px' height='24px'> bucketrepo </a></td>
-	      <td>0.1.54</td>
-	      <td></td>
-	      <td></td>
 	    </tr>
     <tr>
 	      <td><a href='https://jenkins-x.io/' title='Jenkins X next gen cloud CI / CD platform for Kubernetes'> <img src='https://jenkins-x.github.io/jenkins-x-website/img/profile.png' width='24px' height='24px'> jx-build-controller </a></td>
