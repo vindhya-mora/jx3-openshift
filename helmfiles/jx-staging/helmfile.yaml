@@ -4,23 +4,5 @@ environments:
     values:
     - jx-values.yaml
 namespace: jx-staging
-repositories:
-- name: dev
-releases:
-- chart: dev/python-31stjan
-  version: 0.0.1
-  name: python-31stjan
-  values:
-  - jx-values.yaml
-- chart: dev/spring-boot-app-feb9th
-  version: 0.0.1
-  name: spring-boot-app-feb9th
-  values:
-  - jx-values.yaml
-- chart: dev/account-ms-feb9th
-  version: 0.0.9
-  name: account-ms-feb9th
-  values:
-  - jx-values.yaml
 templates: {}
 renderedvalues: {}
