@@ -16,6 +16,12 @@ releases:
   values:
   - ../../versionStream/charts/jenkins-x/jxboot-helmfile-resources/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jenkins-x/nexus
+  version: 0.1.37
+  name: nexus
+  values:
+  - ../../versionStream/charts/jenkins-x/nexus/values.yaml.gotmpl
+  - jx-values.yaml  
 - chart: jx3/jenkins-x-crds
   version: 3.0.5
   name: jenkins-x-crds
