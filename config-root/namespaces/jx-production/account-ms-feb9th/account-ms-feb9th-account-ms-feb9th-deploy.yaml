@@ -1,0 +1,59 @@
+# Source: account-ms-feb9th/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: account-ms-feb9th-account-ms-feb9th
+  labels:
+    draft: draft-app
+    chart: "account-ms-feb9th-0.0.1"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  namespace: jx-production
+  annotations:
+    wave.pusher.com/update-on-config-change: 'true'
+spec:
+  selector:
+    matchLabels:
+      app: account-ms-feb9th-account-ms-feb9th
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        draft: draft-app
+        app: account-ms-feb9th-account-ms-feb9th
+    spec:
+      serviceAccountName: account-ms-feb9th-account-ms-feb9th
+      containers:
+        - name: account-ms-feb9th
+          image: "ghcr.io/vindhya-mora/account-ms-feb9th:0.0.1"
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: VERSION
+              value: 0.0.1
+          envFrom: null
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 400m
+              memory: 256Mi
+            requests:
+              cpu: 200m
+              memory: 128Mi
+      terminationGracePeriodSeconds:
+      imagePullSecrets:
+        - name: "tekton-container-registry-auth"
