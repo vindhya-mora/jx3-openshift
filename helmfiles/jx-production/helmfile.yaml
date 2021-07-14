@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-production
+repositories:
+- name: dev
+  url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+releases:
+- chart: dev/account-ms-feb9th
+  version: 0.0.3
+  name: account-ms-feb9th
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}
