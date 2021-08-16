@@ -13,6 +13,7 @@ spec:
     - name: angular-jx
     - name: angular-jx-jan28
     - name: bank-demo-feb8th
+    - name: demo
     - name: fundtransfer-4thfeb
     - name: fundtransfer-5thfeb
     - name: fundtransfer-feb8th
@@ -43,3 +44,7 @@ spec:
       repositories:
       - name: spring-boot-maven-jenkinsfile
     server: jenkins-for-jx
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
