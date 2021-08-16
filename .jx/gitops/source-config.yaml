@@ -26,6 +26,7 @@ spec:
     - name: ref-impl-6-1-mfp-account-ms-master
     - name: ref-impl-6-1-mfp-fundtransfer-ms
     - name: spring-boot-app-feb9th
+    - name: spring-boot-demo
     - name: spring-boot-rest-prometheus-java11
     - name: "yes"
     scheduler: in-repo
@@ -43,3 +44,7 @@ spec:
       repositories:
       - name: spring-boot-maven-jenkinsfile
     server: jenkins-for-jx
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
