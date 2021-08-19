@@ -19,6 +19,7 @@ spec:
     - name: fundtransfer-jx-4thfeb
     - name: fundtransfer-jxpipeline
     - name: funtransfer-feb9th
+    - name: java-demo-19thaug
     - name: jenkins-jx
     - name: jx-angular
     - name: jx-fundtransfer-4thfeb
@@ -43,3 +44,7 @@ spec:
       repositories:
       - name: spring-boot-maven-jenkinsfile
     server: jenkins-for-jx
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
